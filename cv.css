@@ -1,0 +1,372 @@
+.body {
+  padding-bottom: 50px;
+  padding-top: 65px;
+  z-index: 100;
+  background-color: aliceblue
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 60px;
+  background-color: rgb(13, 13, 145 );
+}
+
+ .header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+ }
+
+ .home {
+  background-color: white;
+  margin-right: 25px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: arial;
+  color: rgb(13, 13, 145);
+  padding: 12px 24px;
+  transition:   0.9s;
+ }
+
+ .home:hover {
+  background-color: red;
+  cursor: pointer;
+  color: white;
+ }
+
+  .left {
+    display: flex;
+  }
+
+
+  .middle {
+    display: flex;
+    flex: 1;
+    margin-left: 50px;
+  }
+
+
+ .right {
+  background-color: white;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  column-gap: 12px;
+  padding: 12px 24px;
+  margin-left: 50px;
+  margin-right: 10px;
+  font-weight: bold;
+  font-family: arial;
+  color: rgb(13, 13, 145);
+ }
+
+ .right div{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-family: arial;
+  cursor: pointer;
+ }
+
+ .about:hover, 
+ .achi:hover, 
+ .edu:hover{
+  color: red;
+  text-decoration: underline;
+ }
+ 
+
+
+.middle div {
+  color: white;
+  font-weight: bold;
+  font-family: arial;
+  text-transform: uppercase;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+   
+  
+}
+
+.passport img {
+  width: 10%;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.passport {
+  display: flex;
+  justify-content: center;
+
+}
+
+.div-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+}
+
+
+.info p {
+  margin: 3px;
+  font-size: 15px;
+}
+
+.objective {
+  width: 650px;
+}
+
+
+.info h3 {
+  margin: 3px;
+  font-size: 22px;
+  color: rgb(13, 13, 145);
+  font-family: Arial;
+ 
+}
+
+.span {
+  font-weight: bold;
+  color: rgb(241, 43, 16);
+}
+
+.info {
+  text-align: center;
+ 
+}
+
+
+
+.obj {
+  margin-bottom: 30px; 
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 650px;
+}
+
+.obj p {
+  margin: 0;
+  line-height: 20px;
+}
+
+.obj h4 {
+  margin: 0;
+}
+
+.underline {
+  font-weight: bold;
+  color: rgb(241, 43, 16);
+  text-decoration: underline;
+}
+
+
+
+.datalist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 250px;
+  width: 650px;
+  
+}
+
+.education {
+  margin-top: 10px;
+}
+
+.edu-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 250px;
+  width: 650px;
+}
+
+
+.ref {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  width: 650px;
+}
+
+.ref-list h4{
+  margin: 0; 
+}
+
+.ref-list p{
+  margin: 0; 
+}
+
+.info2 {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.div {
+  display: flex;
+
+  justify-content: center;
+  padding: 15px 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 700px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+}
+ 
+
+.div3 {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 700px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+}
+ 
+
+.ul {
+  margin-bottom: 15px;
+}
+ 
+ 
+
+.inline2 {
+  border-radius: 10px;
+ 
+}
+
+.inline2 div{
+ 
+  padding: 5px 15px;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+ 
+}
+
+.flex-side {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: lightblue;
+}
+
+.flex-side h2{
+margin: 0;
+font-family: arial;
+color: rgb(241, 43, 16);
+}
+
+ 
+.flex-side p{
+margin: 0;
+line-height: 30px;
+text-align: justify;
+}
+
+.flex-side img{
+width: 20%;
+}
+
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  cursor: pointer;
+ 
+}
+.socials {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.socials div{
+  display: flex;
+ 
+  align-items: center;
+ 
+}
+
+.link:hover {
+  color: red;
+}
+ 
+
+.programmer {
+  font-weight: bold;
+}
+
+
+.about {
+  position: relative;
+}
+
+.tooltip .tool{
+  position: absolute;
+  bottom: -8px;
+  padding: 3px 8px;
+  color: white;
+  font-size: 12px;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  background-color: rgb(51, 51, 185);
+}
+
+.tooltip:hover .tool {
+  opacity: 1;
+} 
+
+.placeholder {
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.placeholder::placeholder {
+  color: red;
+  padding-left: 10px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 14px;
+}
+ 
+.suv img{
+  height: 17px;
+  background-color: red;
+  padding: 5px;
+  margin: -11px;
+  padding-right: 14px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.suv {
+  cursor: pointer;
+}
+
+.search {
+  margin-left: 20px;
+}
